@@ -1,0 +1,940 @@
+2016/12/15 16:12:46 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.ff" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\layouts\main.php(24): CComponent->__get('ff')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\layouts\column1.php(7): CBaseController->endContent()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\tesk24\protected\controllers\SiteController.php(32): CController->render('index')
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/tesk24/index.php
+HTTP_REFERER=http://localhost/tesk24/index.php?r=gii/default/index
+---
+2016/12/15 16:37:52 [error] [php] Array to string conversion (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\layouts\main.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\tesk24\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\layouts\main.php (31)
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\layouts\column1.php (7)
+in C:\xampp\htdocs\tesk24\protected\controllers\SiteController.php (32)
+2016/12/15 17:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=graphs
+---
+2016/12/15 18:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=graphs
+---
+2016/12/15 18:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=buttons_and_icons
+---
+2016/12/16 01:14:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tesk24/index.php?r=user/admin
+HTTP_REFERER=http://localhost/tesk24/index.php?r=user/create
+---
+2016/12/16 01:15:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tesk24/index.php?r=user/admin
+HTTP_REFERER=http://localhost/tesk24/index.php?r=user/index
+---
+2016/12/16 01:44:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tesk24/index.php?r=user/admin
+HTTP_REFERER=http://localhost/tesk24/index.php?r=user/view&id=2
+---
+2016/12/16 02:29:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/delete')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tesk24/index.php?r=user/delete
+---
+2016/12/16 03:18:25 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (22)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:23:22 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (23)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:23:23 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (23)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:24:24 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (24)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:24:25 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (24)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:27:05 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (22)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:27:06 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (22)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:31:31 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (23)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:36:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(2): CWebApplication->runController('member/view/ind...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:36:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(2): CWebApplication->runController('/member/view/_f...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\MemberController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(4): MemberController->loadModel(1)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\MemberController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(14): MemberController->loadModel(1)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\MemberController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(14): MemberController->loadModel(1)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\MemberController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(14): MemberController->loadModel(1)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:48:17 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (24)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:48:56 [error] [exception.CException] exception 'CException' with message 'Alias "Member.models.*" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(12): YiiBase::import('Member.models.*')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:49:36 [error] [exception.CException] exception 'CException' with message 'Alias "app.models.*" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:348
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(12): YiiBase::import('app.models.*')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/pendaftar...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/pendaftar...')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 03:50:18 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (24)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:54:03 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (24)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:54:41 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (25)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:54:59 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (25)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 03:56:43 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (22)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:05:21 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (13)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:05:58 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (13)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:05:59 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (13)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:06:26 [error] [php] Undefined variable: dataProvider (C:\xampp\htdocs\tesk24\protected\views\member\index.php:18)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(13): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\protected\views\member\index.php (18)
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (13)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:06:30 [error] [php] Undefined variable: dataProvider (C:\xampp\htdocs\tesk24\protected\views\member\index.php:18)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php(13): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\protected\views\member\index.php (18)
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (13)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:07:59 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (22)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:08:00 [error] [php] Undefined variable: model (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\pendaftaran_member.php (22)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 04:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "pendaftaran_member" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('pendaftaran_mem...')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=pendaftaran_member
+---
+2016/12/16 05:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\UserController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\protected\controllers\UserController.php(55): UserController->loadModel('')
+#1 [internal function]: UserController->actionView('')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesk24/index.php?r=user/view&id=
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=data_user
+---
+2016/12/16 05:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\UserController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\protected\controllers\UserController.php(55): UserController->loadModel('')
+#1 [internal function]: UserController->actionView('')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesk24/index.php?r=user/view&id=
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=data_user
+---
+2016/12/16 05:38:07 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.model" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('model')
+#1 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php(26): CWebUser->__get('model')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/data_user', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/data_user')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=data_user
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/index
+---
+2016/12/16 05:40:00 [error] [php] Object of class SiteController could not be converted to string (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=data_user
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php (26)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 05:40:19 [error] [php] Object of class SiteController could not be converted to string (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=data_user
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php (26)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 05:40:20 [error] [php] Object of class SiteController could not be converted to string (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=data_user
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php (26)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 05:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\UserController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\protected\controllers\UserController.php(55): UserController->loadModel('')
+#1 [internal function]: UserController->actionView('')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesk24/index.php?r=user/view&id=
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=data_user
+---
+2016/12/16 05:42:33 [error] [php] Undefined variable: user (C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tesk24\index.php(13): CWebApplication->run()
+REQUEST_URI=/tesk24/index.php?r=site/page&view=data_user
+in C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php (26)
+in C:\xampp\htdocs\tesk24\index.php (13)
+2016/12/16 05:43:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.models" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('models')
+#1 C:\xampp\htdocs\tesk24\themes\shadow_dancer\views\site\pages\data_user.php(26): CModule->__get('models')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/data_user', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/data_user')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tesk24/index.php?r=site/page&view=data_user
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/index
+---
+2016/12/16 05:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\UserController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\protected\controllers\UserController.php(55): UserController->loadModel('')
+#1 [internal function]: UserController->actionView('')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesk24/index.php?r=user/view&id=
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=data_user
+---
+2016/12/16 05:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\UserController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\protected\controllers\UserController.php(55): UserController->loadModel('')
+#1 [internal function]: UserController->actionView('')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesk24/index.php?r=user/view&id=
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=data_user
+---
+2016/12/16 05:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\tesk24\protected\controllers\UserController.php:157
+Stack trace:
+#0 C:\xampp\htdocs\tesk24\protected\controllers\UserController.php(55): UserController->loadModel('')
+#1 [internal function]: UserController->actionView('')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tesk24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tesk24/index.php?r=user/view&id=
+HTTP_REFERER=http://localhost/tesk24/index.php?r=site/page&view=data_user
+---
